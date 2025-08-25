@@ -25,9 +25,4 @@ public class HelloWorld
     {
         System.out.println(message);
     }
-    public static void main(String[] args)
-    {
-        HelloWorld student = new HelloWorld("Owen");
-        student.greet();
-    }
 }
