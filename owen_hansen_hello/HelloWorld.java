@@ -24,12 +24,4 @@ public class HelloWorld
     {
         System.out.println(message);
     }
-    public static void main(String[] args)
-    {
-        HelloWorld student = new HelloWorld("Owen");
-        student.greet();
-        student.greet("Hey there!");
-        HelloWorld student2 = new HelloWorld("Owen", 19);
-        student2.introduce();
-    }
 }
