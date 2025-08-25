@@ -26,5 +26,6 @@ public class AppLauncher
         student.greet("Hey there!");
         HelloWorld student2 = new HelloWorld(n, a);
         student2.introduce();
+        scan.close();
     }
 }
